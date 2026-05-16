@@ -2,11 +2,11 @@
 To forecast quarterly revenue of a retail store data using Prophet in Python
 
 ## Table of Contents
--[Project Overview](#Project Overview)
--[Data Engineering & Integrity] (#Data Engineering & Integrity)
--[Tools](#Tools) 
--[Key Insights](#Key Insights)
--[Challenges and Solutions](#Challenges and Solutions)
+- [Project Overview] (#Project-Overview)
+- [Data Engineering & Integrity] (#Data Engineering & Integrity)
+- [Tools] (#Tools) 
+- [Key Insights] (#Key Insights)
+- [Challenges and Solutions] (#Challenges and Solutions)
   
 ### Project Overview 
 - This project delivers a high-fidelity revenue forecast for a UK based e-commerce retailer using Prophet. Analysed 12000+ raw, dirty retail transactions to forecast quarterly revenue
