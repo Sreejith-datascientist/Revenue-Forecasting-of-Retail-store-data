@@ -26,7 +26,8 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 3. Analysis and Visualization
 - Revenue Forecast(2025)
 	  - The blue line tracks historical actuals with high precision, projecting a significant surge into early 2025.
-<img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/614a8e51-59d3-475d-aecbde754dea6553" />
+<img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/542b98c5-6587-48f3-bb5d-0b22df9d2634" />
+
 - Component Decomposition
 	  - Trend: shows the underlying health of the business after removing seasonal noise.
 	  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
