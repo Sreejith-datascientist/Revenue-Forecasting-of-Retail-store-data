@@ -1,18 +1,18 @@
 # Revenue-Forecasting-of-Retail-store-data
 To forecast quarterly revenue of a retail store data using Prophet in Python
 
-##Table of Contents
-- [Project Overview](#Project Overview)
-- [Data Engineering & Integrity] (#Data Engineering & Integrity)
-- [Tools](#Tools) 
-- [Key Insights](#Key Insights)
-- [Challenges and Solutions]
+## Table of Contents
+-[Project Overview](#Project Overview)
+-[Data Engineering & Integrity] (#Data Engineering & Integrity)
+-[Tools](#Tools) 
+-[Key Insights](#Key Insights)
+-[Challenges and Solutions](#Challenges and Solutions)
   
-###Project Overview 
+### Project Overview 
 - This project delivers a high-fidelity revenue forecast for a UK based e-commerce retailer using Prophet. Analysed 12000+ raw, dirty retail transactions to forecast quarterly revenue
 - By decomposing complex retail signals into organic trends,seasonal waves and holiday multipliers,the model achieves a Mean Absolute Percentage Error(MAPE) of <10%,providing decision-ready guidance for fiscal planning and inventory management.
 
-  ###Data Engineering & Integrity
+### Data Engineering & Integrity
 1. Data Collection 
 - Kaggle retail data sales(link)
 2. Data Cleaning 
@@ -29,19 +29,19 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 	  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
 	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
 
-###Tools
+### Tools
 	- Python 3.10
 	- Prophet - Time Series Modelling
 	- Pandas/Numpy (Data Engineering)
 	- Matplotlib (Visualization)
 	- Conda - Forge (Environment Management)
 
-###Key Insights
+### Key Insights
 - YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators. 
 - Market consensus of 118000 was approximated based on 2023 quartely averages.This should be replaced with actual consensus estimates.The +14.64% divergence suggests the transaction would have indicated an earnings beat
 - January 2025 Peak: Projected revenue of ~52k, marking the strongest performing month in the 3-year historical dataset. Q1 2025 suggest a February holiday dip and rise from March. 
 - July Dip: Identified a recurring 18-20% revenue dip in July, providing a clear window for cost-optimization or aggressive pivoting
 
-###Challenges and Solutions
+### Challenges and Solutions
 - Mititgating Data Latency Bias: Identified that january 2025 reporting period was incomplete (containing only 18 days of transactions). To avoid a false negative in the growth analysis and prevent skewing the time series model, I truncated the dataset at EOY 2024. This ensured the final 14.64% positive divergence insight was derived from full, comparable reports
 - Standard linear models failed to capture holiday spikes and the subsequent February "Post-holiday dip" which is common in UK retail. So deployed Prophet with yearly_seasonality=True, by model successfully isolated the underlying growth trend from predictable calendar based noise, resulting in a tighter confidence interval for the Q1 forecast.
