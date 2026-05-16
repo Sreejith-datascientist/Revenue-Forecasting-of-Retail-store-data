@@ -28,6 +28,9 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 	  - Trend: shows the underlying health of the business after removing seasonal noise.
 	  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
 	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
+<img width="698" height="307" alt="Capture2" src="https://github.com/user-attachments/assets/111f6697-0284-4b5d-b2fa-85f694ec1c9a" />
+<img width="2658" height="2666" alt="Trend_plot" src="https://github.com/user-attachments/assets/7837807f-7072-4239-8717-f8cac51a3304" />
+<img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/614a8e51-59d3-475d-aecb-de754dea6553" />
 
 ### Tools
 - Python 3.10
