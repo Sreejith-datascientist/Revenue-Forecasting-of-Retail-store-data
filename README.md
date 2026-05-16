@@ -30,11 +30,11 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
 
 ### Tools
-	- Python 3.10
-	- Prophet - Time Series Modelling
-	- Pandas/Numpy (Data Engineering)
-	- Matplotlib (Visualization)
-	- Conda - Forge (Environment Management)
+- Python 3.10
+- Prophet - Time Series Modelling
+- Pandas/Numpy (Data Engineering)
+- Matplotlib (Visualization)
+- Conda - Forge (Environment Management)
 
 ### Key Insights
 - YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators. 
