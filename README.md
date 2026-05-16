@@ -14,7 +14,7 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 
 ### Data Engineering & Integrity
 1. Data Collection 
-- Kaggle retail data sales(link)
+- Kaggle retail data sales([link](https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning))
 2. Data Cleaning 
 - Noise Reduction: Identified and purged ~4.8% of records(609 records) lacking critical financial variables (Quantity and Spend) to prevent imputation bias.
 - Deterministic Imputation: Mathematically reconstructed missing unit prices using the logic (Total Spent/Qty)
