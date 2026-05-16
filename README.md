@@ -43,8 +43,12 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 - Conda - Forge (Environment Management)
 
 ### Key Insights
-- YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators. 
-- Market consensus of 118,000 was approximated based on 2023 quartely averages.This should be replaced with actual consensus estimates.The +14.64% divergence suggests the transaction would have indicated an earnings beat
+- YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators.
+<img width="591" height="511" alt="YoY Analysis" src="https://github.com/user-attachments/assets/83dbd696-cab5-4731-a22b-b03e9db70c3c" />
+
+- Market consensus of 118,000 was approximated based on 2023 quartely averages.This should be replaced with actual consensus estimates.The +14.64% divergence suggests the transaction would have indicated an earnings beat.
+<img width="580" height="228" alt="divergence" src="https://github.com/user-attachments/assets/10e0656e-54b9-427f-a904-c42ef6ac4114" />
+
 - January 2025 Peak: Projected revenue of ~52k, marking the strongest performing month in the 3-year historical dataset. Q1 2025 suggest a February holiday dip and rise from March. 
 - July Dip: Identified a recurring 18-20% revenue dip in July, providing a clear window for cost-optimization or aggressive pivoting
 <img width="624" height="173" alt="Capture" src="https://github.com/user-attachments/assets/d8fd04d9-3b84-4ae1-a017-f0e1280e16b4" />
