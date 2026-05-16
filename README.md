@@ -34,7 +34,6 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
 <img width="2658" height="2666" alt="Trend_plot" src="https://github.com/user-attachments/assets/7837807f-7072-4239-8717-f8cac51a3304" />
 
-
 ### Tools
 - Python 3.10
 - Prophet - Time Series Modelling
