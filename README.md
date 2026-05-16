@@ -21,16 +21,18 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 - Mapping: Developed a multi dimensional look up table using Category and Unit Price to recover missing Item Names, ensuring 100% sectoral coverage for the revenue model. 
 - Outliers: The histogram confirms right skewed distribution of consumer spend. the continuous decay in frequency suggests these are valid high-value consumer transactions rather than data entry errors or outliers. I chose to retain 100% of these records to capture the full revenue for the model. 
 - Datatype Conversion: Converted object strings to datetime for transaction_date column and extracted "Year","Month", and "Quarter" for growth analysis
+<img width="698" height="307" alt="Capture2" src="https://github.com/user-attachments/assets/111f6697-0284-4b5d-b2fa-85f694ec1c9a" />
+
 3. Analysis and Visualization
 - Revenue Forecast(2025)
 	  - The blue line tracks historical actuals with high precision, projecting a significant surge into early 2025.
+<img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/614a8e51-59d3-475d-aecbde754dea6553" />
 - Component Decomposition
 	  - Trend: shows the underlying health of the business after removing seasonal noise.
 	  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
 	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
-<img width="698" height="307" alt="Capture2" src="https://github.com/user-attachments/assets/111f6697-0284-4b5d-b2fa-85f694ec1c9a" />
 <img width="2658" height="2666" alt="Trend_plot" src="https://github.com/user-attachments/assets/7837807f-7072-4239-8717-f8cac51a3304" />
-<img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/614a8e51-59d3-475d-aecb-de754dea6553" />
+
 
 ### Tools
 - Python 3.10
