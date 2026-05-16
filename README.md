@@ -25,13 +25,13 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 
 3. Analysis and Visualization
 - Revenue Forecast(2025)
-	  - The blue line tracks historical actuals with high precision, projecting a significant surge into early 2025.
+  - The blue line tracks historical actuals with high precision, projecting a significant surge into early 2025.
 <img width="2975" height="1849" alt="forecast_plot1" src="https://github.com/user-attachments/assets/542b98c5-6587-48f3-bb5d-0b22df9d2634" />
 
 - Component Decomposition
-	  - Trend: shows the underlying health of the business after removing seasonal noise.
-	  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
-	  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
+  - Trend: shows the underlying health of the business after removing seasonal noise.
+  - Seasonality: Identifies the "Summer Surge" and "Autumn Dip" patterns
+  - Holidays: Quantifies the massive impact of UK-specific events on total volume.
 <img width="2658" height="2666" alt="Trend_plot" src="https://github.com/user-attachments/assets/7837807f-7072-4239-8717-f8cac51a3304" />
 
 ### Tools
@@ -45,8 +45,10 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 - YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators.
 <img width="591" height="511" alt="YoY Analysis" src="https://github.com/user-attachments/assets/83dbd696-cab5-4731-a22b-b03e9db70c3c" />
 
+
 - Market consensus of 118,000 was approximated based on 2023 quartely averages.This should be replaced with actual consensus estimates.The +14.64% divergence suggests the transaction would have indicated an earnings beat.
 <img width="580" height="228" alt="divergence" src="https://github.com/user-attachments/assets/10e0656e-54b9-427f-a904-c42ef6ac4114" />
+
 
 - January 2025 Peak: Projected revenue of ~52k, marking the strongest performing month in the 3-year historical dataset. Q1 2025 suggest a February holiday dip and rise from March. 
 - July Dip: Identified a recurring 18-20% revenue dip in July, providing a clear window for cost-optimization or aggressive pivoting
