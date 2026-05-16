@@ -44,6 +44,8 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 - Market consensus of 118000 was approximated based on 2023 quartely averages.This should be replaced with actual consensus estimates.The +14.64% divergence suggests the transaction would have indicated an earnings beat
 - January 2025 Peak: Projected revenue of ~52k, marking the strongest performing month in the 3-year historical dataset. Q1 2025 suggest a February holiday dip and rise from March. 
 - July Dip: Identified a recurring 18-20% revenue dip in July, providing a clear window for cost-optimization or aggressive pivoting
+<img width="624" height="173" alt="Capture" src="https://github.com/user-attachments/assets/d8fd04d9-3b84-4ae1-a017-f0e1280e16b4" />
+<img width="691" height="134" alt="Capture1" src="https://github.com/user-attachments/assets/ef4a88d9-beec-4139-9dac-959764bc5fcf" />
 
 ### Challenges and Solutions
 - Mititgating Data Latency Bias: Identified that january 2025 reporting period was incomplete (containing only 18 days of transactions). To avoid a false negative in the growth analysis and prevent skewing the time series model, I truncated the dataset at EOY 2024. This ensured the final 14.64% positive divergence insight was derived from full, comparable reports
