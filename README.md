@@ -40,6 +40,7 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 - Pandas/Numpy (Data Engineering)
 - Matplotlib (Visualization)
 - Conda - Forge (Environment Management)
+- PowerBI
 
 ### Key Insights
 - YoY Analysis: in 2023 contraction was led by high spend customer pullback followed by 2024 recovery across all spend tiers. High spend transactions accelerated sharply in Q4 2024(+18% to +27%), suggesting premium segment recovery - an indicator that can give positive earnings to retail operators.
