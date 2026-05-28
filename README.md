@@ -56,8 +56,7 @@ To forecast quarterly revenue of a retail store data using Prophet in Python
 <img width="691" height="134" alt="Capture1" src="https://github.com/user-attachments/assets/ef4a88d9-beec-4139-9dac-959764bc5fcf" />
 
 - The retail business demonstrates stable sales growth with 1.53M in revenue and strong transaction volume. Online and in-store purchases are nearly balanced, while cash remains the dominant payment method. Most categories perform consistently without relying heavily on discounts, indicating healthy customer demand. Future opportunities lie in expanding digital adoption, growing the customer base, and strengthening high-performing product categories.
-<img width="999" height="537" alt="services dashboard" src="https://github.com/user-attachments/assets/2ccdd9f1-f6e3-43e0-9f14-28b371cec200" />
-
+<img width="962" height="537" alt="services dashboard1" src="https://github.com/user-attachments/assets/43bbef42-7473-4501-81cd-cbeb697fea2b" />
 
 ### Challenges and Solutions
 - Mititgating Data Latency Bias: Identified that january 2025 reporting period was incomplete (containing only 18 days of transactions). To avoid a false negative in the growth analysis and prevent skewing the time series model, I truncated the dataset at EOY 2024. This ensured the final 14.64% positive divergence insight was derived from full, comparable reports
